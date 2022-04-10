@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">sematech_farvardin_1401_2</string>
+    <string name="save">ذخیره</string>
+    <string name="open">باز کن</string>
+    <string name="start_text">سلام ادنا!</string>
+    <string name="first_quarter">ربع اول سال</string>
+    <string name="second_quarter">ربع دوم سال</string>
+</resources>

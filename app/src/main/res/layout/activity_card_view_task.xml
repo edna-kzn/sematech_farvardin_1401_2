@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CardViewTask"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:id="@+id/First_Quarter_txtv"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/first_quarter"
+        android:textColor="@color/my_red"
+    />
+    <TextView
+        android:id="@+id/line_txtv"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="@color/my_red"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/First_Quarter_txtv"
+    />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/first_cardview"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:layout_constraintTop_toBottomOf="@+id/line_txtv"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_margin="10dp"
+        app:cardElevation="30dp"
+        android:elevation="30dp"
+        app:cardCornerRadius="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="January"
+                android:textColor="@color/white"
+                android:background="@color/purple_700"
+                android:gravity="center"
+                android:padding="10dp"
+                android:layout_weight="1"
+                />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/january"
+                android:scaleType="fitXY"
+                android:layout_weight="4"
+                />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Second_cardview"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:layout_constraintTop_toBottomOf="@+id/first_cardview"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_margin="10dp"
+        app:cardElevation="30dp"
+        android:elevation="30dp"
+        app:cardCornerRadius="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Febuary"
+                android:textColor="@color/white"
+                android:background="@color/purple_700"
+                android:gravity="center"
+                android:padding="10dp"
+                android:layout_weight="1"
+                />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/febuary"
+                android:scaleType="fitXY"
+                android:layout_weight="4"
+                />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/third_cardview"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:layout_constraintTop_toBottomOf="@+id/Second_cardview"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_margin="10dp"
+        app:cardElevation="30dp"
+        android:elevation="30dp"
+        app:cardCornerRadius="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="March"
+                android:textColor="@color/white"
+                android:background="@color/purple_700"
+                android:gravity="center"
+                android:padding="10dp"
+                android:layout_weight="1"
+                />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/march"
+                android:scaleType="fitXY"
+                android:layout_weight="4"
+                />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/second_Quarter_txtv"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        app:layout_constraintTop_toBottomOf="@+id/third_cardview"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/second_quarter"
+        android:textColor="@color/my_red"
+        />
+    <TextView
+        android:id="@+id/line2_txtv"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="@color/my_red"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/second_Quarter_txtv"
+        />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/forth_cardview"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:layout_constraintTop_toBottomOf="@+id/line2_txtv"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_margin="10dp"
+        app:cardElevation="30dp"
+        android:elevation="30dp"
+        app:cardCornerRadius="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="April"
+                android:textColor="@color/white"
+                android:background="@color/purple_700"
+                android:gravity="center"
+                android:padding="10dp"
+                android:layout_weight="1"
+                />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/april"
+                android:scaleType="fitXY"
+                android:layout_weight="4"
+                />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/fifth_cardview"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:layout_constraintTop_toBottomOf="@+id/forth_cardview"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_margin="10dp"
+        app:cardElevation="30dp"
+        android:elevation="30dp"
+        app:cardCornerRadius="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="May"
+                android:textColor="@color/white"
+                android:background="@color/purple_700"
+                android:gravity="center"
+                android:padding="10dp"
+                android:layout_weight="1"
+                />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/may"
+                android:scaleType="fitXY"
+                android:layout_weight="4"
+                />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/sixth_cardview"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:layout_constraintTop_toBottomOf="@+id/fifth_cardview"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_margin="10dp"
+        app:cardElevation="30dp"
+        android:elevation="30dp"
+        app:cardCornerRadius="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="June"
+                android:textColor="@color/white"
+                android:background="@color/purple_700"
+                android:gravity="center"
+                android:padding="10dp"
+                android:layout_weight="1"
+                />
+
+            <ImageView
+                android:id="@+id/img_Spring"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/spring"
+                android:scaleType="fitXY"
+                android:layout_weight="4"
+                />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btn_ShowMonth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/sixth_cardview"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="5dp"
+        android:text="@string/show_month"
+        android:textSize="10sp"
+        android:textColor="@color/white"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

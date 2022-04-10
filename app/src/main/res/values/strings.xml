@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">sematech_farvardin_1401_2</string>
+    <string name="save">Save!</string>
+    <string name="open">فارسی</string>
+    <string name="start_text">Hello Edna!</string>
+    <string name="first_quarter">First Quarter</string>
+    <string name="second_quarter">Second Quarter</string>
+    <string name="show_month">Show Month</string>
+
+</resources>

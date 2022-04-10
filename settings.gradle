@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "sematech_farvardin_1401_2"
