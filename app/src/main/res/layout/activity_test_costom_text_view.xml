@@ -25,8 +25,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="این یک متن بلد به فونت وزیر است"
-        android:textColor="@color/my_red"
-        android:textSize="20sp"/>
+        style="@style/myTextViewStyle"
+        />
 
 
 </androidx.appcompat.widget.LinearLayoutCompat>
