@@ -11,8 +11,9 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="این یک متن فارسی زشت است"
-        android:textSize="20sp"/>
+        android:text="این یک متن فارسی زشت است!!"
+        android:textSize="20sp"
+        />
 
     <com.kazarian.android.sematech_farvardin_1401_2.VazirTextView
         android:layout_width="match_parent"
