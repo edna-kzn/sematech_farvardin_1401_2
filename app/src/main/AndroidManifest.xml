@@ -11,16 +11,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Sematech_farvardin_1401_2">
-        <activity android:name=".TestCostomTextViewActivity">
+        <activity android:name=".ThirdSectionTaskActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Test_Video_View_Activity">
+        <activity android:name=".TestCostomTextViewActivity">
+
         </activity>
-        <activity android:name=".TestDrawerLayoutActivity"></activity>
+        <activity android:name=".Test_Video_View_Activity"></activity>
+        <activity android:name=".TestDrawerLayoutActivity" />
         <activity android:name=".WebViewTest" />
         <activity android:name=".CardViewTask" />
         <activity android:name=".MainActivity" />

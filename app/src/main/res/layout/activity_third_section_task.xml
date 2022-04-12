@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    android:id="@+id/drowermain"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdSectionTaskActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <WebView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:id="@+id/section3_webview"
+                />
+
+            <Button
+                android:id="@+id/btn_ShowDrower"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:text="show drower"
+                android:gravity="center"
+                android:layout_gravity="center"/>
+
+            <VideoView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/VideoView_sample"
+                />
+
+            <com.kazarian.android.sematech_farvardin_1401_2.VazirRegular_TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="این یک تست کاستم تکست ویو است با فونت فارسی وزیر رگولار"
+                style="@style/myTextViewStyle"/>
+
+            <com.kazarian.android.sematech_farvardin_1401_2.EdnaButton
+                android:id="@+id/btn_toast"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="نمایش پیغام تست"
+                style="@style/myButtonStyle" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:background="@color/brown_light"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="drower is visible"
+            android:gravity="center"/>
+
+
+    </LinearLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>
